@@ -16,7 +16,9 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "pretest:feature": "npm run build",
-    "test:feature": "jest --config=jest.config.feature.js"
+    "test:feature": "jest --config=jest.config.feature.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "",
@@ -53,7 +55,13 @@
     "typescript": "^2.9.2",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8",
-    "webpack-serve": "^1.0.4"
+    "webpack-serve": "^1.0.4",
+    "@storybook/react": "^4.0.0-alpha.12",
+    "@storybook/addon-actions": "^4.0.0-alpha.12",
+    "@storybook/addon-links": "^4.0.0-alpha.12",
+    "@storybook/addons": "^4.0.0-alpha.12",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0"
   },
   "dependencies": {
     "express": "^4.16.3",
