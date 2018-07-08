@@ -42,6 +42,8 @@
     "tslint": "^5.10.0",
     "tslint-config-airbnb": "^5.9.2",
     "tslint-config-prettier": "^1.13.0",
+    "typed-css-modules": "^0.3.4",
+    "typed-css-modules-loader": "0.0.13",
     "typescript": "^2.9.2",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8",
